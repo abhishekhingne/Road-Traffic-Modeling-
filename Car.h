@@ -9,7 +9,7 @@ class Car {
 		vector<float> currentPosn; //current car position co-ordinates
 		vector<float> dest;	//destination co-ordinates of car
 		float speed;	//spped in kmph
-		vector<float> size;	//length by width
+		vector<float> size;	//length by width 
 		vector<vector<int> > underPixle; //pixle indices in map under car
 	public:
 		Car(vector<float> curtPos, vector<float> dst, float spd, vector<float> sze, Map map1);
